@@ -1,5 +1,39 @@
-html{
-    margin: 15%;
+body, html {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+
+header, main, footer {
+    flex: 1;
+}
+
+header {
+    background-color: green; /* Couleur de fond du header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 8%; /* 5% de la hauteur de la page */
+}
+
+main {
+    background-color: red; /* Couleur de fond du body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 67%; /* 70% de la hauteur de la page */
+}
+
+footer {
+    background-color: blue; /* Couleur de fond du footer */
+    max-height: 25%; /* 25% de la hauteur de la page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .color1{
