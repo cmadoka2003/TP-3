@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTravel Agency</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -14,32 +16,62 @@
             <a href="index.html">Home</a>
             <a href="destination.html">Destinations</a>
             <a href="Deals.html">Deals</a>
-            <a href="contact.html">Contact</a>        
-        </nav>   
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <h2>Body</h2>
+        <div class="container">
+            <div class="searchgrp">
+                <h2>Find your holiday</h2>
+                <form class="search">
+                    <div class="grpTxt">
+                        <label for="from">From:</label>
+                        <input type="text" id="from" name="from">
+                    </div>
+                    <div class="grpTxt">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="grpTxt">
+                        <label for="to">To:</label>
+                        <input type="text" id="to" name="to">
+                    </div>
+                    <div class="grpTxt">
+                        <label for="duration">Duration:</label>
+                        <input type="text" id="duration" name="duration">
+                    </div>
+                </form>
+                <button type="button" >Find !</button>
+            </div>
+           
+            <div class="dealDay">
+                <img src="image/amsterdam.jpg" alt="dealOfTheDay">
+            </div>
+        </div>
+
+
+        
     </main>
 
-  <footer>
-       
-            <div class="color1">
-             
-            </div>
-            
-            <div class="color2">
-              
+    <footer>
 
-            </div>
-            
-            <div class="color3">
-                
-            </div>
-       
+        <div class="color1">
+
+        </div>
+
+        <div class="color2">
+
+
+        </div>
+
+        <div class="color3">
+
+        </div>
+
     </footer>
 
     <script src="js/script.js"></script>
 </body>
-</html>
 
+</html>
