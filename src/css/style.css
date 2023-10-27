@@ -48,11 +48,67 @@ nav a:hover{
 }
 
 main {
-    background-color: red; /* Couleur de fond du body */
     display: flex;
-    align-items: center;
-    justify-content: center;
     max-height: 67%; /* 70% de la hauteur de la page */
+}
+
+.Information{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.image-selectionnee img {
+    width: 400px;
+    max-height: 400px;
+}
+
+.choix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.choix img {
+    width: 100px;
+    max-height: 50px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.argent {
+    margin-left: 280px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
 }
 
 footer {
