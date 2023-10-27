@@ -1,3 +1,20 @@
+body, html {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+
+header, main, footer {
+    flex: 1;
+}
+
+header {   
+    display: flex;  
+    max-height: 8%; /* 5% de la hauteur de la page */
+}
 nav{
     display: block;
     flex-direction: row;
@@ -24,3 +41,31 @@ nav a:hover{
 .avion:hover {
     transform: rotate(360deg);
 }
+
+main {
+    background-color: red; /* Couleur de fond du body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 67%; /* 70% de la hauteur de la page */
+}
+
+footer {
+    background-color: blue; /* Couleur de fond du footer */
+    max-height: 25%; /* 25% de la hauteur de la page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.color1{
+    background-color: #004e66;
+}
+.color2{
+    background-color: #e1eef6 ;
+}
+.color3{
+    background-color: #ff5f2e;
+}
+
