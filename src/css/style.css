@@ -18,12 +18,13 @@ header {
 nav{
     display: block;
     flex-direction: row;
+    width: 955px;
 }
 
 nav a{
     padding: 20px;
     margin: 20px;
-    font-size: 20px;
+    font-size: 14px;
     text-decoration: none;
     color: blue;
     transition: 0.5;
@@ -40,6 +41,10 @@ nav a:hover{
 
 .avion:hover {
     transform: rotate(360deg);
+}
+
+.logo{
+    margin-right: 22%;
 }
 
 main {
@@ -68,4 +73,3 @@ footer {
 .color3{
     background-color: #ff5f2e;
 }
-
