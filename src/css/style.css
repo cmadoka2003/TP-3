@@ -67,7 +67,7 @@ footer {
 .color1{
     background-color: #004e66;
     width: 100%;
-    height: 55%;
+    height: 70%;
 }
 .color2{
     background-color: #e1eef6 ;
@@ -77,7 +77,21 @@ footer {
 .color3{
     background-color: #ff5f2e;
     width: 100%;
-    height: 7%;
+    height: 10%;
+}
+.text{
+    color: white;
 }
 
+.text_information{
+    color: #3f7b8e;
+    background-color: #004e66;
+    position: absolute;
+    
+}
+
+.img_calculator{
+    width: 27%;
+    height : auto;      
+}
 
