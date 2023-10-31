@@ -21,17 +21,13 @@ nav{
     width: 1400px;
 }
 
-nav a{
+li{
     padding: 20px;
     margin: 20px;
     font-size: 14px;
     text-decoration: none;
     color: blue;
     transition: 0.5;
-}
-
-nav a:hover{
-    color: orange;
 }
 
 .avion{
@@ -43,14 +39,28 @@ nav a:hover{
     transform: rotate(360deg);
 }
 
-.logo{
-    margin-right: 40%;
+.custom-margin{
+    margin-left: 800px;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: orange;
+}
+
+.navbar-toggler.custom-toggler {
+    color: #fff; /* Couleur du texte */
+    border-radius: 4px; /* Rayon des coins */
+    padding: 0; /* Espacement interne */
+    font-size: 40px; /* Taille de la police */
+}
+
+.navbar-toggler-icon{
+    color: #ff5f2e;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    max-height: 67%; /* 70% de la hauteur de la page */
 }
 
 .Information{
@@ -78,11 +88,11 @@ main {
 }
 
 .choix img {
-    width: 100px;
+    width: 80px;
     max-height: 50px;
 }
 
-.button {
+.custom-button {
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -97,7 +107,7 @@ main {
 }
 
 .argent {
-    margin-left: 640px;
+    margin-left: 600px;
     font-size: 16px;
     font-weight: bold;
     padding: 10px ;
@@ -109,16 +119,11 @@ main {
     border: none;
 }
 
-.nom {
-    text-align: center;
-    background: linear-gradient(to top, white, red);
-}
-
 #citation {
     font-size: 10px;
 }
 
-.nom {
+.custom-style {
     text-align: center;
     background: linear-gradient(to top, white, red);
 }
@@ -132,9 +137,19 @@ main {
     color: gray;
 }
 
-h2 {
+.titre {
     border-left: 4px solid red;
 }
+
+.custom-style1 img {
+    width: 430px;
+    max-height: 430px;
+}
+
+.test-orange{
+    color: orange;
+}
+
 footer {
     min-height: 25%; /* 25% de la hauteur de la page */
     display: flex;
