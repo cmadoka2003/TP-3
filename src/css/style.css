@@ -21,17 +21,13 @@ nav{
     width: 1400px;
 }
 
-nav a{
+li{
     padding: 20px;
     margin: 20px;
     font-size: 14px;
     text-decoration: none;
     color: blue;
     transition: 0.5;
-}
-
-nav a:hover{
-    color: orange;
 }
 
 .avion{
@@ -43,8 +39,23 @@ nav a:hover{
     transform: rotate(360deg);
 }
 
-.logo{
-    margin-right: 40%;
+.custom-margin{
+    margin-left: 800px;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: orange;
+}
+
+.navbar-toggler.custom-toggler {
+    color: #fff; /* Couleur du texte */
+    border-radius: 4px; /* Rayon des coins */
+    padding: 0; /* Espacement interne */
+    font-size: 40px; /* Taille de la police */
+}
+
+.navbar-toggler-icon{
+    color: #ff5f2e;
 }
 
 main {
@@ -132,9 +143,10 @@ main {
     color: gray;
 }
 
-h2 {
+.titre {
     border-left: 4px solid red;
 }
+
 footer {
     min-height: 25%; /* 25% de la hauteur de la page */
     display: flex;
