@@ -171,4 +171,10 @@ footer {
     height: 7%;
 }
 
-
+/* condition */
+.title{
+    position: relative;
+    background-image: url('../image/banniere-pc-gamer-new1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
