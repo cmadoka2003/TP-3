@@ -18,20 +18,16 @@ header {
 nav{
     display: block;
     flex-direction: row;
-    width: 955px;
+    width: 1400px;
 }
 
-nav a{
+li{
     padding: 20px;
     margin: 20px;
     font-size: 14px;
     text-decoration: none;
     color: blue;
     transition: 0.5;
-}
-
-nav a:hover{
-    color: orange;
 }
 
 .avion{
@@ -43,25 +39,120 @@ nav a:hover{
     transform: rotate(360deg);
 }
 
-.logo{
-    margin-right: 22%;
+.custom-margin{
+    margin-left: 800px;
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: orange;
+}
+
+.navbar-toggler.custom-toggler {
+    color: #fff; /* Couleur du texte */
+    border-radius: 4px; /* Rayon des coins */
+    padding: 0; /* Espacement interne */
+    font-size: 40px; /* Taille de la police */
+}
+
+.navbar-toggler-icon{
+    color: #ff5f2e;
 }
 
 main {
-    background-color: red; /* Couleur de fond du body */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     max-height: 67%; /* 70% de la hauteur de la page */
 }
 
+.Information{
+    display: flex;
+    flex-direction: row;
+}
+
+.photo {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.image-selectionnee img {
+    width: 400px;
+    max-height: 400px;
+}
+
+.choix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.choix img {
+    width: 100px;
+    max-height: 50px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.argent {
+    margin-left: 640px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.nom {
+    text-align: center;
+    background: linear-gradient(to top, white, red);
+}
+
+#citation {
+    font-size: 10px;
+}
+
+.nom {
+    text-align: center;
+    background: linear-gradient(to top, white, red);
+}
+
+#citation {
+    font-size: 10px;
+}
+
+.info {
+    font-size: 13px;
+    color: gray;
+}
+
+.titre {
+    border-left: 4px solid red;
+}
+
 footer {
-    max-height: 25%; /* 25% de la hauteur de la page */
+    min-height: 25%; /* 25% de la hauteur de la page */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .color1{
