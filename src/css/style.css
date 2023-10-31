@@ -61,7 +61,6 @@ li{
 main {
     display: flex;
     flex-direction: column;
-    max-height: 67%; /* 70% de la hauteur de la page */
 }
 
 .Information{
@@ -89,11 +88,11 @@ main {
 }
 
 .choix img {
-    width: 100px;
+    width: 80px;
     max-height: 50px;
 }
 
-.button {
+.custom-button {
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -108,7 +107,7 @@ main {
 }
 
 .argent {
-    margin-left: 640px;
+    margin-left: 600px;
     font-size: 16px;
     font-weight: bold;
     padding: 10px ;
@@ -120,16 +119,11 @@ main {
     border: none;
 }
 
-.nom {
-    text-align: center;
-    background: linear-gradient(to top, white, red);
-}
-
 #citation {
     font-size: 10px;
 }
 
-.nom {
+.custom-style {
     text-align: center;
     background: linear-gradient(to top, white, red);
 }
@@ -145,6 +139,15 @@ main {
 
 .titre {
     border-left: 4px solid red;
+}
+
+.custom-style1 img {
+    width: 430px;
+    max-height: 430px;
+}
+
+.test-orange{
+    color: orange;
 }
 
 footer {
