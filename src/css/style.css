@@ -65,19 +65,16 @@ footer {
 }
 
 .color1{
-    background-color: #004e66;
-    width: 100%;
-    height: 70%;
+    background-color: #004e66; */
+    height: 30% ;
 }
 .color2{
-    background-color: #e1eef6 ;
-    width: 100%;
+    background-color: #e1eef6 ; 
     height: 80%;
 }
 .color3{
     background-color: #ff5f2e;
-    width: 100%;
-    height: 10%;
+    height: 15%;   
 }
 .text{
     color: white;
@@ -94,4 +91,10 @@ footer {
     width: 27%;
     height : auto;      
 }
-
+.img{
+    width: 70px;
+    height: 75px;
+}
+.test{
+    background-image: url("calculator.png");
+}
