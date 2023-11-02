@@ -2,25 +2,17 @@ li {
     padding-left: 90px;
     font-size: 14px;
     text-decoration: none;
-    color: blue;
+    color: darkblue;
     transition: 0.5;
-}
-nav a:hover {
-    color: orange;
 }
 
 .avion {
-
     width: 30px;
     transition: transform 0.5s;
 }
 
 .avion:hover {
     transform: rotate(360deg);
-}
-
-.custom-margin {
-    margin-left: 280px;
 }
 
 .navbar-nav .nav-item:nth-child(1) .nav-link {
