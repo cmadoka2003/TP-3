@@ -1,7 +1,3 @@
-header, footer {
-    flex: 1;
-}
-
 li{ 
     padding-left: 90px;
     font-size: 14px;
@@ -139,46 +135,52 @@ nav a:hover {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.093), rgba(255, 255, 255, 0.7));
 }
 
-footer {
 
-  
-    min-height: 25%;
-    /* 25% de la hauteur de la page */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-
-  
-  
-    min-height: 25%; /* 25% de la hauteur de la page */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-
-  
+.color1{
+    background-color: #004e66; */
 }
+.bgfooter2{
+    background-color: #e1eef6 ; 
 
-.color1 {
-    background-color: #004e66;
-    width: 100%;
-    height: 55%;
-}
-
-.color2 {
-    background-color: #e1eef6;
-    width: 100%;
-    height: 80%;
 }
 
 .color3 {
     background-color: #ff5f2e;
-    width: 100%;
-    height: 7%;
+}
+.text{
+    color: white;
 }
 
+.text_information{
+    color: #3f7b8e;
+    background-color: #004e66;
+    position: absolute;
+    
+}
+
+.img_calculator{
+    width: 27%;
+    height : auto;      
+}
+.img{
+    width: 70px;
+    height: 75px;
+}
+.test{
+    background-image: url("calculator.png");
+}
+.text-dark-blue{
+    color: #105970;
+    width: 30%;
+}
+
+
+.bgfooter1{
+    background-color: #004e66;
+}
+.bold-text{
+    width: 130px;
+    color: gray;    
 
 
 
@@ -228,4 +230,5 @@ footer {
 .cm {
     margin-right: 4.3%;
     margin-bottom: 15%; /* Ajustez la valeur selon vos besoins */
+
 }
