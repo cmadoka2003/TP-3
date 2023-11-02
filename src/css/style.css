@@ -1,14 +1,5 @@
 body, html {
     height: 100vh;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 8%;
-}
-
-header, main, footer {
-    flex: 1;
 }
 
 header {   
@@ -55,26 +46,14 @@ main {
     max-height: 67%; /* 70% de la hauteur de la page */
 }
 
-footer {
-    max-height: 25%; /* 25% de la hauteur de la page */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-
 .color1{
     background-color: #004e66; */
-    height: 30% ;
 }
-.color2{
+.bgfooter2{
     background-color: #e1eef6 ; 
-    height: 80%;
 }
 .color3{
     background-color: #ff5f2e;
-    height: 15%;   
 }
 .text{
     color: white;
@@ -97,4 +76,16 @@ footer {
 }
 .test{
     background-image: url("calculator.png");
+}
+.text-dark-blue{
+    color: #105970;
+    width: 30%;
+}
+
+.bgfooter1{
+    background-color: #004e66;
+}
+.bold-text{
+    width: 130px;
+    color: gray;    
 }
