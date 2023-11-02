@@ -175,5 +175,38 @@ footer {
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.093), rgba(255, 255, 255,0.7));
 }
 
+.textSurImage {
+    position: relative;
+    display: inline-block; /* Permet à la div de s'ajuster à la taille de l'image */
+}
 
+.textSurImage, .desc1, .desc2, .prix, .titre1, .titre2{
+    position: absolute;
+    color: black; /* Couleur du texte */
+}
 
+.titre1 {
+    top: 10px; /* Position en haut */
+    left: 10px; /* Position à gauche */
+    font-size: 14px; /* Taille du texte */
+}
+
+.titre2 {
+    bottom: 10px; /* Position en bas */
+    left: 10px; /* Position à gauche */
+    font-size: 18px; /* Taille du texte */
+    font-weight: bold; /* Gras */
+}
+
+.desc2 {
+    bottom: 30px; /* Position en bas (sous le titre) */
+    left: 10px; /* Position à gauche */
+    font-size: 12px; /* Taille du texte */
+}
+
+.prix {
+    bottom: 10px; /* Position en bas */
+    right: 10px; /* Position à droite */
+    font-size: 16px; /* Taille du texte */
+    font-weight: bold; /* Gras */
+}
