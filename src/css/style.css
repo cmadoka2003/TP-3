@@ -17,7 +17,7 @@ nav {
 }
 
 
-li{ develop
+li{ 
     padding: 20px;
     margin: 20px;
     font-size: 14px;
@@ -50,7 +50,7 @@ nav a:hover {
 
 
 .custom-margin{
-    margin-left: 800px;
+    margin-left: 280px;
 }
 
 .navbar-nav .nav-item:nth-child(1) .nav-link {
