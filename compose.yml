@@ -5,9 +5,9 @@ services:
   db:
     container_name: mysql8
     image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: contact
+      MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: contact
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
