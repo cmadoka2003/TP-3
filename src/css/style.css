@@ -1,11 +1,4 @@
-body, html {
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 8%;
-}
+
 
 header, main, footer {
     flex: 1;
@@ -58,11 +51,7 @@ li{
     color: #ff5f2e;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    max-height: 67%; /* 70% de la hauteur de la page */
-}
+
 
 .Information{
     display: flex;
@@ -172,9 +161,14 @@ footer {
 }
 
 /* condition */
-.title{
-    position: relative;
+
+.containerMalang{ border: 1px solid; }
+.MacImage{
     background-image: url('../image/banniere-pc-gamer-new1.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+.custom-style-Condition img{
+    width: 1284px;
+    height: 200px;
 }
