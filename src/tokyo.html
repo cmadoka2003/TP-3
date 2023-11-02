@@ -9,35 +9,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-    <header>
+<body class="container-fluid">
+    <header class="row">
         <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">☰</span>
-            </button>
-            <a class="navbar-brand" href="#"><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav custom-margin">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="destination.html">Destinations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Deals.html">Deals</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a> 
-                    </li>
-                </ul>
+            <div class="col-md-1 offset-md-1">
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">☰</span>
+                </button>
             </div>
+            
+            <div class="col-md-2">
+                <a class="navbar-brand" href="#"><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a></a>
+            </div>
+            
+            <div class="col-md-2"></div>
+            
+            <div class="col-md-3">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav custom-margin">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Deals.html">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>          
         </nav>
     </header>
 
-    <main class="container">
+    <main>
         <div class="row">
-            <div class="col-md-5 Information">
+            <div class="col-md-3 offset-md-2 Information">
                 <div class="photo">
                     <div class="image-selectionnee">
                         <img id="imageSelectionnee" src="image/tokyo1.jpg" class="img-fluid">
@@ -56,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-7 text">
+            <div class="col-sm-5 text">
                 <h1>Tokyo</h1>
                 <p>Hôtel Calypso ⭐️⭐️⭐️⭐️ &starf;</p>
                 <p>1 week</p>
@@ -64,23 +74,25 @@
                     Que vous soyez en voyage d'affaires ou en vacances, nous vous offrons un séjour inoubliable, 
                     avec des chambres luxueuses, des installations modernes et un service attentionné. 
                     Découvrez l'harmonie entre le charme de notre établissement et l'effervescence de cette magnifique destination</p>
-                <a class="btn btn-primary custom-button">Choose a date</a>
+                <a class="btn btn-primary custom-button" style="background-color: #ff5f2e;">Choose a date</a>
                 <a class="argent">150 €</a>
             </div>
-            <div class="row position-relative custom-style" id="nom">
-            <a><img src="image/tokyo11.PNG"></a>
-                <div class="position-absolute top-50 start-50 translate-middle text-center">
-                    <h1>Tokyo</h1>
-                    <p class="citation">Les citoyens de Tokyo, unis dans la fierté et l'harmonie, construisent la ville internationale de Tokyo</p>
-                </div>               
+            <div class="row position-relative custom-style">
+                <div class="col-md-8 offset-md-2">
+                    <a><img src="image/tokyo11.PNG"></a>
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <h1>Tokyo</h1>
+                        <p class="citation">Les citoyens de Tokyo, unis dans la fierté et l'harmonie, construisent la ville internationale de Tokyo</p>                  
+                    </div> 
+                </div>            
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 detail">
-                <h2 class="titre">Description</h2>
+            <div class="col-md-8 offset-md-2 detail">
+                <h4 class="titre">Description</h4>
                 <p class="info">Tokyo est une ville qui allie parfaitement les éléments traditionnels de la culture japonaise avec les avancées technologiques modernes. 
                                 On y trouve des temples anciens à côté de gratte-ciels futuristes, créant ainsi un paysage urbain unique.</p>
-                <h2 class="titre">Détails</h2>
+                <h4 class="titre">Détails</h4>
                 <p class="info">
                     1. Contraste entre Tradition et Modernité : Tokyo est une ville qui allie parfaitement les éléments traditionnels de la culture japonaise avec les avancées technologiques modernes. 
                         On y trouve des temples anciens à côté de gratte-ciels futuristes, créant ainsi un paysage urbain unique.<br />
@@ -96,7 +108,7 @@
                     5. Culture Pop : Tokyo est le berceau de la culture pop japonaise. 
                         Des quartiers comme Harajuku et Akihabara sont célèbres pour leur mode excentrique, leurs manga, leurs anime et leurs jeux vidéo.<br />
                 </p>
-                <h2 class="titre">Other</h2>
+                <h4 class="titre">Other</h4>
                 <p class="info">
                     1.Population : Tokyo est la ville la plus peuplée du Japon et l'une des plus peuplées du monde, avec une population de plus de 13 millions d'habitants.<br />
                         
@@ -113,47 +125,51 @@
             </div>
         </div>
         <div class="row text-center">
-            <p style="font-weight: bold; font-size: 40px;">You may also like</p>    
+            <p style="font-weight: bold; font-size: 20px;">You may also like</p>    
         </div>
-        <div class="row text-center custom-style1">
-            <div class="col-md-4 position-relative">
-                <a><img src="image/tokyo1.jpg"></a>
-                <div class="position-absolute top-0 start-0 p-3 bgcustom h-100 w-100 text-start ">
-                    <h6 class="ms-3 fs-2 fw-bold test-orange">Katmandou</h6>
+        <div class="col-md-8 offset-md-2">
+            <div class="row text-center custom-style1">
+                <div class="col-md-4 position-relative">
+                    <div class="bgcustom position-absolute top-0 start-0 w-100 h-100"></div>
+                        <img src="image/katmandou.jpg" class="img-fluid h-100" alt="Image 1" />
+                        <div class="position-absolute top-0 start-0 p-2">
+                        <h5 class="textcustomTokyo ms-3 fs-3 fw-bold">Katmandou</h5>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 margin-custom-tokyo bg-warning">
+                        <p class="m-1 me-3 fs-4 fw-bold">150€</p>
+                    </div>
+                    <div class="position-absolute bottom-0 p-3 text-dark text-start">
+                        <p class="m-0 fw-bold">Hotel Calypso</p>
+                        <small class="fst-italic fw-bold">1 week</small>
+                    </div>
                 </div>
-                <div class="position-absolute bottom-0 end-0 mb-15 p-2 bg-warning text-dark ">
-                    <p class="mb-0 fs-4 fw-bold">150€</p>
+                <div class="col-md-4 position-relative">
+                    <div class="bgcustom position-absolute top-0 start-0 w-100 h-100"></div>
+                        <img src="image/rio.jpg" class="img-fluid h-100" alt="Image 1" />
+                        <div class="position-absolute top-0 start-0 p-2">
+                        <h5 class="textcustomTokyo ms-3 fs-3 fw-bold">Rio</h5>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 margin-custom-tokyo bg-warning">
+                        <p class="m-1 me-3 fs-4 fw-bold">150€</p>
+                    </div>
+                    <div class="position-absolute bottom-0 p-3 text-dark text-start">
+                        <p class="m-0 fw-bold">Hotel Calypso</p>
+                        <small class="fst-italic fw-bold">1 week</small>
+                    </div>
                 </div>
-                <div class="position-absolute bottom-0  p-3 text-dark text-start ">
-                    <small class="m-0 fw-bold">Hotel Calypso</small>
-                    <p class="fw-bold">1 week</p>
-                </div>
-            </div>
-            <div class="col-md-4 position-relative">
-                <a><img src="image/tokyo1.jpg"></a>
-                <div class="position-absolute top-0 start-0 p-3 bgcustom h-100 w-100 text-start ">
-                    <h6 class="ms-3 fs-2 fw-bold test-orange">Paris</h6>
-                </div>
-                <div class="position-absolute bottom-0 end-0 mb-15 p-2 bg-warning text-dark ">
-                    <p class="mb-0 fs-4 fw-bold">150€</p>
-                </div>
-                <div class="position-absolute bottom-0  p-3 text-dark text-start ">
-                    <small class="m-0 fw-bold">Hotel Calypso</small>
-                    <p class="fw-bold">1 week</p>
-                </div>
-
-            </div>
-            <div class="col-md-4 position-relative">
-                <a><img src="image/tokyo1.jpg"></a>
-                <div class="position-absolute top-0 start-0 p-3 bgcustom h-100 w-100 text-start ">
-                    <h6 class="ms-3 fs-2 fw-bold test-orange">Lisbonne</h6>
-                </div>
-                <div class="position-absolute bottom-0 end-0 mb-15 p-2 bg-warning text-dark ">
-                    <p class="mb-0 fs-4 fw-bold">150€</p>
-                </div>
-                <div class="position-absolute bottom-0  p-3 text-dark text-start ">
-                    <small class="m-0 fw-bold">Hotel Calypso</small>
-                    <p class="fw-bold">1 week</p>
+                <div class="col-md-4 position-relative">
+                    <div class="bgcustom position-absolute top-0 start-0 w-100 h-100"></div>
+                        <img src="image/lisbonne.jpg" class="img-fluid h-100" alt="Image 1" />
+                        <div class="position-absolute top-0 start-0 p-2">
+                        <h5 class="textcustomTokyo ms-3 fs-3 fw-bold">Lisbonne</h5>
+                    </div>
+                    <div class="position-absolute bottom-0 end-0 margin-custom-tokyo bg-warning">
+                        <p class="m-1 me-3 fs-4 fw-bold">150€</p>
+                    </div>
+                    <div class="position-absolute bottom-0 p-3 text-dark text-start">
+                        <p class="m-0 fw-bold">Hotel Calypso</p>
+                        <small class="fst-italic fw-bold">1 week</small>
+                    </div>
                 </div>
             </div>
         </div>
