@@ -1,17 +1,15 @@
-li{ 
+li {
     padding-left: 90px;
     font-size: 14px;
     text-decoration: none;
     color: blue;
     transition: 0.5;
 }
-
-
 nav a:hover {
     color: orange;
 }
 
-.avion{
+.avion {
 
     width: 30px;
     transition: transform 0.5s;
@@ -28,7 +26,7 @@ nav a:hover {
 }
 
 
-.custom-margin{
+.custom-margin {
     margin-left: 280px;
 }
 
@@ -43,7 +41,7 @@ nav a:hover {
     font-size: 40px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: #ff5f2e;
 }
 
@@ -79,7 +77,8 @@ nav a:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    background-color: #ff5f2e;;
+    background-color: #ff5f2e;
+    ;
     color: #ffffff;
     cursor: pointer;
     border: none;
@@ -89,7 +88,7 @@ nav a:hover {
     margin-left: 600px;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px ;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -119,7 +118,8 @@ nav a:hover {
 }
 
 .titre {
-    border-left: 4px solid #ff5f2e;;
+    border-left: 4px solid #ff5f2e;
+    ;
 }
 
 .custom-style1 img {
@@ -127,7 +127,7 @@ nav a:hover {
     max-height: 430px;
 }
 
-.test-orange{
+.test-orange {
     color: #ff5f2e;
 }
 
@@ -136,53 +136,57 @@ nav a:hover {
 }
 
 
-.color1{
-    background-color: #004e66; */
-}
-.bgfooter2{
-    background-color: #e1eef6 ; 
+
+
+.bgfooter2 {
+    background-color: #e1eef6;
 
 }
 
 .color3 {
     background-color: #ff5f2e;
 }
-.text{
+
+.text {
     color: white;
 }
 
-.text_information{
+.text_information {
     color: #3f7b8e;
     background-color: #004e66;
     position: absolute;
-    
+
 }
 
-.img_calculator{
+.img_calculator {
     width: 27%;
-    height : auto;      
+    height: auto;
 }
-.img{
+
+.img {
     width: 70px;
     height: 75px;
 }
-.test{
+
+.test {
     background-image: url("calculator.png");
 }
-.text-dark-blue{
+
+.text-dark-blue {
     color: #105970;
     width: 30%;
 }
 
 
-.bgfooter1{
+.bgfooter1 {
     background-color: #004e66;
 }
-.bold-text{
+
+.bold-text {
     width: 130px;
-    color: gray;    
+    color: gray;
 
-
+}
 
 .bgcustom {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.093), rgba(255, 255, 255, 0.7));
@@ -200,10 +204,12 @@ nav a:hover {
 .bgform {
     background-color: #004e66;
 }
+
 .search {
 
-    gap: 10px 70px; /* Espacement entre les éléments */
-    
+    gap: 10px 70px;
+    /* Espacement entre les éléments */
+
 }
 
 .btncustom {
@@ -221,14 +227,17 @@ nav a:hover {
     width: 25%;
     background-color: #ff5f2e;
 }
-.ligne{
-    height:30vh;
+
+.ligne {
+    height: 30vh;
 }
-.textcustom{
+
+.textcustom {
     color: #ff5f2e;
 }
+
 .cm {
     margin-right: 4.3%;
-    margin-bottom: 15%; /* Ajustez la valeur selon vos besoins */
-
-}
+    margin-bottom: 15%;
+    /* Ajustez la valeur selon vos besoins */
+ }
