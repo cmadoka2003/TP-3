@@ -16,38 +16,49 @@
   </head>
   <body class="container-fluid">
     <header class="row">
+      <nav class="navbar navbar-expand-md">
+        <div class="col-md-1 offset-md-1">
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">☰</span>
+          </button>
+        </div>
+        <div class="col-md-2">
+          <a class="navbar-brand text-primary" href="#"
+            ><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a
+          >
+        </div>
 
-        <nav class="navbar navbar-expand-md">
-            <div class="col-md-1 offset-md-1">
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">☰</span>
-                </button>
-            </div>           
-            <div class="col-md-2">
-                <a class="navbar-brand text-primary" href="#"><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a></a>
-            </div>
-            
-            <div class="col-md-2"><a href="bdd.php">PHP</a></div>
+        <div class="col-md-2"><a href="bdd.php">PHP</a></div>
 
-            <div class="col-md-3">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav custom-margin">
-                        <li class="nav-item text">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="destination.html">Destinations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="Deals.html">Deals</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-primary" href="contact.php">Contact</a> 
-                        </li>
-                    </ul>
-                </div>
-            </div>          
-        </nav>
+        <div class="col-md-3">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav custom-margin">
+              <li class="nav-item text">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="destination.html"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="Deals.html">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="contact.php">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <div class="row mt-md-4">
@@ -153,139 +164,149 @@
     </div>
 
     <div class="row">
-      <a
-        href="#"
-        class="col-md-2 offset-md-2 p-2 text-black"
+      <div
+        class="col-md-2 offset-md-2 p-2"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/sydney.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Sydey</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/sydney.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Sydey</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="#"
+      <div
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/rio.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Rio</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/rio.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Rio</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="#"
+      <div
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/cusco.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Cusco</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/cusco.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Cusco</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="#"
+      <div
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/delhi.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">New Delhi</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/delhi.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">New Delhi</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
+
     <div class="row">
-      <a
-        href="#"
+      <div
         class="col-md-2 offset-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/hongkong.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Hong Kong</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/hongkong.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Hong Kong</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="#"
+      <div
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/katmandou.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Katmandou</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/katmandou.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Katmandou</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="tokyo.html"
+      <div
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/amsterdam.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Tokyo</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="tokyo.html" class="text-black">
+          <div class="image-container">
+            <img src="image/amsterdam.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Tokyo</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
 
-      <a
-        href="#"
+      <div
+        
         class="col-md-2 p-2 text-black"
         onmouseover="enlargeImage(this) "
         onmouseout="resetImages(this)"
       >
-        <div class="image-container">
-          <img src="image/amsterdam.jpg" alt="Image 1" class="custom-image" />
-          <div class="text-top-left fs-3 fw-bolder ps-2">Lisbonne</div>
-          <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
-          <div class="text-bottom-left fst-italic fw-bold">1 week</div>
-          <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
-            150€
+        <a href="#" class="text-black">
+          <div class="image-container">
+            <img src="image/amsterdam.jpg" alt="Image 1" class="custom-image" />
+            <div class="text-top-left fs-3 fw-bolder ps-2">Lisbonne</div>
+            <div class="text-bottom-left pb-4 fw-bold">Hotel Calypso</div>
+            <div class="text-bottom-left fst-italic fw-bold">1 week</div>
+            <div class="text-bottom-right bg-warning fs-4 fw-semibold mb-4">
+              150€
+            </div>
           </div>
         </div>
       </a>
@@ -333,7 +354,6 @@
           </div>
         </div>
 
- 
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <div class="row bgfooter2 pt-3">
@@ -343,7 +363,9 @@
                 <p class="text-dark-blue m-0">Destination</p>
                 <p class="text-dark-blue m-0">Deals</p>
                 <p class="text-dark-blue m-0">Contact</p>
-                <p class="text-dark-blue m-0"><a href="condition.html">Terms & Conditions</a></p>
+                <p class="text-dark-blue m-0">
+                  <a href="condition.html">Terms & Conditions</a>
+                </p>
               </div>
               <div class="col-md-4">
                 <h5 class="fw-bold">Adress</h5>
