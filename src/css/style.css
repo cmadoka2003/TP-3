@@ -229,3 +229,8 @@ li {
     margin-bottom: 15%;
     /* Ajustez la valeur selon vos besoins */
  }
+
+ .background{
+    background: url(Fond-Contact.jpg);
+    position: relative;
+ }

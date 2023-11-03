@@ -18,7 +18,7 @@
                 </button>
             </div>           
             <div class="col-md-2">
-                <a class="navbar-brand text-primary" href="#"><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a></a>
+                <a class="navbar-brand text-primary" href="#"><img class="avion" src="image/avion.png" />TRAVEL AGENCY</a>
             </div>
             
             <div class="col-md-2"></div>
@@ -43,25 +43,112 @@
             </div>          
         </nav>
     </header>
-<body>
-  <h1> Contact</h1>
-  <form> 
-    <div class="search row">
-      <div class="row">
-        <div class="col-md-3 offset-md-2">
-          <div class="form-group">
-            <label for="FirstName"> Firstname</label>
-            <input type="text" class="form-control" id="FirstName" placeholder="FirstName" name="FirstName">
-          </div>
-          <div class="col-md-3">
-          <div class="form-group">
-            <label for="LastName"> LastName</label>
-            <input type="text" class="form-control" id="LastName" placeholder="LastName" name="LastName">
+
+
+    <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <a><img src="Fond-contact.jpg" /></a>
           </div>
         </div>
-      </div>
-    </div>
-  </form>
+        <br />
+     
+        <div class="row">
+          <div class="col-md-4 offset-md-2 ">
+            <form action="bdd.php" method="POST">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="FirstName"> LastName : </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="LastName"
+                      placeholder="LastName"
+                      name="LastName"
+                      required
+                    />
+                  </div>
+                </div>
+     
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="LastName"> FirstName : </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="FirstName"
+                      placeholder="FirstName"
+                      name="FirstName"
+                      required
+                    />
+                  </div>
+                </div>
+     
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email"> Email :</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="test@gmail.com"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="agency"> Nearest Agency</label>
+                    <input
+                      type="agency"
+                      class="form-control"
+                      id="agency"
+                      placeholder="Paris"
+                      name="agency"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12 ">
+                  <div class="form-group">
+                    <label for="msg"> Message</label>
+                    <textarea
+                      id="msg"
+                      name="msg"
+                      rows="3"
+                      cols="10"
+                      maxlength="400"
+                      class="form-control msg"
+                    ></textarea>
+                    <br>
+                  </div>
+                </div>
+     
+                <div class="col-md-12 text-end">
+                  <button type="button" class="btncustom">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 ">
+            <h2>Address</h2>
+            <br />
+            <p>15 rue de la Paix</p>
+            <p>75010, Paris</p>
+            <p>+1 0805-540-801</p>
+            <p>Other Address</p>
+            <br />
+            <h2>Information</h2>
+            <p> Lorem ipsum dolor sit amet,
+               consectetur adipiscing elit.
+               Phasellus ornare lectus non 
+               urna sollicitudin gravida.
+               Vivamus pharetra </p>
+          </div>
+        </div>
+
+ 
 
 
 
@@ -70,11 +157,6 @@
 
 
 
-
-
-
-
-    
     <footer>
         <div class="row ">
           <div class="col-lg-8 offset-lg-2 bgfooter1" style="max-height: 20vh">
