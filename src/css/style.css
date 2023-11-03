@@ -1,6 +1,5 @@
-html,body {   
-    
-    height: 100vh;
+html, body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
@@ -263,6 +262,7 @@ li {
     position: absolute;
 }
 
+
 .text-top-left {
     top: 5px;
     left: 10px;
@@ -275,7 +275,17 @@ li {
     left: 20px;
     font-weight: 500;
 }
-
+.texte-survol{
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.414);
+    font-weight: 500;
+    padding:3% ;
+    top: 50%;
+    left: 50%;
+  font-size: large;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
 .text-bottom-right {
     bottom: 20px; /* Ajustez la valeur selon vos préférences */
     right: 0px;
