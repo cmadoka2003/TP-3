@@ -38,7 +38,7 @@
                             <a class="nav-link text-primary" href="Deals.html">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-primary" href="contact.html">Contact</a> 
+                            <a class="nav-link text-primary" href="contact.php">Contact</a> 
                         </li>
                     </ul>
                 </div>
@@ -128,10 +128,10 @@
                 </div>
      
                 <div class="col-md-12 text-end">
-                  <input type="submit" name="formsend" class="btncustom">Send</input>
+                  <input type="submit" name="formsend" class="btncustom"></input>
                 </div>
                 <?php
-                if(isset($message)) echo $message
+                if(isset($message)) echo $message1
                 ?>
               </div>
             </form>
@@ -223,7 +223,7 @@
                 <p class="text-dark-blue m-0">Destination</p>
                 <p class="text-dark-blue m-0">Deals</p>
                 <p class="text-dark-blue m-0">Contact</p>
-                <p class="text-dark-blue m-0">Term & Conditions</p>
+                <p class="text-dark-blue m-0"><a href="condition.html">Terms & Conditions</a></p>
               </div>
               <div class="col-md-4">
                 <h5 class="fw-bold">Adress</h5>
