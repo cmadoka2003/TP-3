@@ -48,14 +48,14 @@
 
 
     <div class="row">
-          <div class="col-md-8 offset-md-2">
+          <div class="col-md-8 offset-md-2 mb-5">
             <a><img src="image/Fond-contact.jpg" /></a>
           </div>
         </div>
-        <br />
+        
      
         <div class="row">
-          <div class="col-md-4 offset-md-2 ">
+          <div class="col-md-4 offset-md-2">
             <form method="POST">
               <div class="row">
                 <div class="col-md-6">
@@ -63,7 +63,7 @@
                     <label for="FirstName"> LastName : </label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control border border-warning mb-4"
                       id="LastName"
                       placeholder="LastName"
                       name="LastName"
@@ -77,7 +77,7 @@
                     <label for="LastName"> FirstName : </label>
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control border border-warning mb-4"
                       id="FirstName"
                       placeholder="FirstName"
                       name="FirstName"
@@ -91,7 +91,7 @@
                     <label for="email"> Email :</label>
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control border border-warning mb-4"
                       id="email"
                       placeholder="test@gmail.com"
                       name="email"
@@ -104,7 +104,7 @@
                     <label for="agency"> Nearest Agency</label>
                     <input
                       type="agency"
-                      class="form-control"
+                      class="form-control border border-warning mb-4"
                       id="agency"
                       placeholder="Paris"
                       name="agency"
@@ -119,17 +119,17 @@
                     <textarea
                       id="msg"
                       name="msg"
-                      rows="3"
+                      rows="6"
                       cols="10"
-                      maxlength="400"
-                      class="form-control"
+                      maxlength="800"
+                      class="form-control border border-warning "
                       required
                     ></textarea>
                     <br>
                   </div>
                 </div>
      
-                <div class="col-md-12 text-end">
+                <div class="col-md-12 text-end mb-4">
                   <input type="submit" name="formsend" class="btncustom"></input>
                 </div>
                 <?php
