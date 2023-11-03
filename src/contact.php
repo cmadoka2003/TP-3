@@ -108,6 +108,7 @@
                       id="agency"
                       placeholder="Paris"
                       name="agency"
+                      
                       required
                     />
                   </div>
@@ -121,7 +122,8 @@
                       rows="3"
                       cols="10"
                       maxlength="400"
-                      class="form-control msg"
+                      class="form-control"
+                      required
                     ></textarea>
                     <br>
                   </div>
@@ -137,14 +139,15 @@
             </form>
           </div>
           <div class="col-md-4 ">
-            <h2>Address</h2>
+            <h4 class="titre">Address</h4>
             <br />
-            <p>15 rue de la Paix</p>
-            <p>75010, Paris</p>
-            <p>+1 0805-540-801</p>
-            <p>Other Address</p>
+            <p>15 rue de la Paix <br />
+            75010, Paris <br />
+            France <br />
+            +1 0805-540-801 <br />
+            <a href="#">Other Address</a></p>
             <br />
-            <h2>Information</h2>
+            <h4 class ="titre">Information</h4>
             <p> Lorem ipsum dolor sit amet,
                consectetur adipiscing elit.
                Phasellus ornare lectus non 
@@ -170,7 +173,7 @@
                 class="col-md-6 col-lg-1 offset-lg-1 mb-3 d-flex justify-content-center align-items-center text-center">
                 <div>
                   <img
-                    src="calculator.png"
+                    src="image/calculator.png"
                     class="img-fluid"
                     alt="Image 1"
                   />
@@ -181,7 +184,7 @@
                 class="col-md-6 col-lg-1 offset-lg-2 mb-3 d-flex justify-content-center align-items-center text-center">
                 <div>
                   <img
-                    src="discount.png"
+                    src="image/discount.png"
                     class="img-fluid"
                     alt="Image 2"
                   />
@@ -192,7 +195,7 @@
                 class="col-md-6 col-lg-1 offset-lg-2 mb-3 d-flex justify-content-center align-items-center text-center">
                 <div>
                   <img
-                    src="support.png"
+                    src="image/support.png"
                     class="img-fluid"
                     alt="Image 3"
                   />
@@ -203,7 +206,7 @@
                 class="col-md-6 col-lg-1 offset-lg-2 mb-3 d-flex justify-content-center align-items-center text-center">
                 <div>
                   <img
-                    src="online-payment.png"
+                    src="image/online-payment.png"
                     class="img-fluid"
                     alt="Image 4"
                   />
@@ -219,11 +222,11 @@
             <div class="row bgfooter2 pt-3">
               <div class="col-md-4">
                 <h5 class="fw-bold">Links</h5>
-                <p class="text-dark-blue m-0">Home</p>
-                <p class="text-dark-blue m-0">Destination</p>
-                <p class="text-dark-blue m-0">Deals</p>
-                <p class="text-dark-blue m-0">Contact</p>
-                <p class="text-dark-blue m-0"><a href="condition.html">Terms & Conditions</a></p>
+                <p class="text-dark-blue m-0 footer-custom"><a href="index.html">Home</a></p>
+                <p class="text-dark-blue m-0 footer-custom">Destination</p>
+                <p class="text-dark-blue m-0 footer-custom">Deals</p>
+                <p class="text-dark-blue m-0 footer-custom"><a href="contact.php">Contact</a></p>
+                <p class="text-dark-blue m-0 footer-custom"><a href="condition.html">Terms & Conditions</a></p>
               </div>
               <div class="col-md-4">
                 <h5 class="fw-bold">Adress</h5>
