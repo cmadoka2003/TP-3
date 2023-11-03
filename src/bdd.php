@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST['formsend'])){
     $serveur = "db";
-    $utilisateur = "admin";
-    $mot_de_passe = "admin";
-    $base_de_donnees = "contact";
+    $utilisateur = getenv('MYSQL_USER');
+    $mot_de_passe = getenv('MYSQL_PASSWORD');
+    $base_de_donnees = getenv('MYSQL_DATABASE');
 
     try {
         $connexion = new PDO("mysql:host=$serveur;dbname=$base_de_donnees", $utilisateur, $mot_de_passe);
