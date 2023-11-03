@@ -9,10 +9,10 @@ services:
     volumes:
       - ./data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: contact
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+      MYSQL_DATABASE: "${MYSQL_DATABASE}"
+      MYSQL_USER: "${MYSQL_USER}"
+      MYSQL_PASSWORD: "${MYSQL_PASSWORD}"
 
 
   php_apache:
@@ -33,8 +33,8 @@ services:
     environment:
       PMA_ARBITRARY: 1
       PMA_HOST: db
-      PMA_USER: admin
-      PMA_PASSWORD: admin
+      PMA_USER: "${MYSQL_USER}"
+      PMA_PASSWORD: "${MYSQL_PASSWORD}"
       UPLOAD_LIMIT: 20M
     ports:
       - 8899:80
