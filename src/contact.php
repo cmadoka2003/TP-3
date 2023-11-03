@@ -49,7 +49,7 @@
 
     <div class="row">
           <div class="col-md-8 offset-md-2">
-            <a><img src="Fond-contact.jpg" /></a>
+            <a><img src="image/Fond-contact.jpg" /></a>
           </div>
         </div>
         <br />
