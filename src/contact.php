@@ -129,8 +129,8 @@
                   </div>
                 </div>
      
-                <div class="col-md-12 text-end mb-4">
-                  <input type="submit" name="formsend" class="btncustom"></input>
+                <div class="col-md-12 text-end mb-4 ">
+                  <input type="submit" name="formsend" class="btncustom w-50" value="Send"></input>
                 </div>
                 <?php
                 if(isset($message)) echo $message1
@@ -139,6 +139,7 @@
             </form>
           </div>
           <div class="col-md-4 ">
+            <div></div>
             <h4 class="titre">Address</h4>
             <br />
             <p>15 rue de la Paix <br />
