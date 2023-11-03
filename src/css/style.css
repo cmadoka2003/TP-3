@@ -1,29 +1,14 @@
 
+li {
+    padding-left: 90px;
 
-header, main, footer {
-    flex: 1;
-}
-
-header {   
-    display: flex;  
-    max-height: 8%; /* 5% de la hauteur de la page */
-}
-nav{
-    display: block;
-    flex-direction: row;
-    width: 1400px;
-}
-
-li{
-    padding: 20px;
-    margin: 20px;
     font-size: 14px;
     text-decoration: none;
-    color: blue;
+    color: darkblue;
     transition: 0.5;
 }
 
-.avion{
+.avion {
     width: 30px;
     transition: transform 0.5s;
 }
@@ -32,30 +17,19 @@ li{
     transform: rotate(360deg);
 }
 
-.custom-margin{
-    margin-left: 800px;
-}
-
 .navbar-nav .nav-item:nth-child(1) .nav-link {
-    color: orange;
-}
-
-.navbar-toggler.custom-toggler {
-    color: #fff; /* Couleur du texte */
-    border-radius: 4px; /* Rayon des coins */
-    padding: 0; /* Espacement interne */
-    font-size: 40px; /* Taille de la police */
-}
-
-.navbar-toggler-icon{
     color: #ff5f2e;
 }
 
+.navbar-toggler.custom-toggler {
+    color: #fff;
+    border-radius: 4px;
+    padding: 0;
+    font-size: 40px;
+}
 
-
-.Information{
-    display: flex;
-    flex-direction: row;
+.navbar-toggler-icon {
+    color: #ff5f2e;
 }
 
 .photo {
@@ -78,11 +52,11 @@ li{
 }
 
 .choix img {
-    width: 100px;
+    width: 80px;
     max-height: 50px;
 }
 
-.button {
+.custom-button {
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
@@ -90,41 +64,39 @@ li{
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    background-color: orange;
+    background-color: #ff5f2e;
+    ;
     color: #ffffff;
     cursor: pointer;
     border: none;
 }
 
 .argent {
-    margin-left: 640px;
+    margin-left: 600px;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px ;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    background-color: yellow;
+    background-color: #FFC400;
     color: black;
     border: none;
 }
 
-.nom {
+.custom-style {
+    color: white;
     text-align: center;
-    background: linear-gradient(to top, white, red);
+    padding: 1%;
 }
 
-#citation {
-    font-size: 10px;
+.custom-style img {
+    width: 100%;
+    height: 200px;
 }
 
-.nom {
-    text-align: center;
-    background: linear-gradient(to top, white, red);
-}
-
-#citation {
-    font-size: 10px;
+.citation {
+    font-size: 12px;
 }
 
 .info {
@@ -133,32 +105,119 @@ li{
 }
 
 .titre {
-    border-left: 4px solid red;
+    border-left: 4px solid #ff5f2e;
+    ;
 }
 
-footer {
-    min-height: 25%; /* 25% de la hauteur de la page */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
+.custom-style1 img {
+    width: 430px;
+    max-height: 430px;
 }
 
-.color1{
-    background-color: #004e66;
-    width: 100%;
-    height: 55%;
+
+.margin-custom-tokyo {
+    margin-right: 3%;
+    margin-bottom: 15%; /* Ajustez la valeur selon vos besoins */
 }
-.color2{
-    background-color: #e1eef6 ;
-    width: 100%;
-    height: 80%;
+
+.textcustomTokyo {
+    color: #ff5f2e;  
 }
-.color3{
+
+.bgcustom {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.093), rgba(255, 255, 255, 0.7));
+}
+
+.bgfooter2 {
+    background-color: #e1eef6;
+
+}
+
+.color3 {
     background-color: #ff5f2e;
-    width: 100%;
-    height: 7%;
 }
+
+.text {
+    color: white;
+}
+
+.text_information {
+    color: #3f7b8e;
+    background-color: #004e66;
+    position: absolute;
+
+}
+
+.img_calculator {
+    width: 27%;
+    height: auto;
+}
+
+.img {
+    width: 70px;
+    height: 75px;
+}
+
+.test {
+    background-image: url("calculator.png");
+}
+
+.text-dark-blue {
+    color: #105970;
+    width: 30%;
+}
+
+
+.bgfooter1 {
+    background-color: #004e66;
+}
+
+.bold-text {
+    width: 130px;
+    color: gray;
+
+}
+
+.bgcustom {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.093), rgba(255, 255, 255, 0.7));
+}
+
+
+.bgImage {
+    background-image: url('../image/amsterdam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.bgform {
+    background-color: #004e66;
+}
+
+.search {
+
+    gap: 10px 70px;
+    /* Espacement entre les éléments */
+
+}
+
+.btncustom {
+
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 3px;
+    width: 25%;
+    background-color: #ff5f2e;
+}
+
 
 /* condition */
 
@@ -178,3 +237,17 @@ footer {
 .leli{
     color: black;
 }
+
+.ligne {
+    height: 30vh;
+}
+
+.textcustom {
+    color: #ff5f2e;
+}
+
+.cm {
+    margin-right: 4.3%;
+    margin-bottom: 15%;
+    /* Ajustez la valeur selon vos besoins */
+ }
